@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/legal-page";
 export default function AboutPage() {
   return (
     <LegalPage title="About">
-      <p>VV Ultimatum Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.</p>
-      <p>The layout, navigation, article cards, and detail format are reproduced from the target VV: ULTIMATUM wiki pages requested for this implementation.</p>
+      <p>Probably Stolen Cyberpunk Shopkeeper Sim Wiki is an independent fan-built guide hub covering trading, item appraisal, crafting, inventory management, smuggling, faction choices, and shop expansion.</p>
+      <p>The site is maintained by players and is not affiliated with Questing Goose Studio, tinyBuild, or Valve. Game details are verified against official store and community sources whenever possible.</p>
     </LegalPage>
   );
 }

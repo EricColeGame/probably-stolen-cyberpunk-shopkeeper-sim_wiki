@@ -12,7 +12,7 @@ import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://probably-stolen-cyberpunk-shopkeeper-sim.wiki";
+const siteUrl = siteConfig.url;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "Probably Stolen Wiki", template: "%s" },
-    description: "Fan-made Probably Stolen Cyberpunk Shopkeeper Sim wiki with trading, appraisal, crafting, inventory, smuggling, and faction guides.",
+    title: { default: "Probably Stolen Cyberpunk Shopkeeper Sim Wiki", template: "%s" },
+    description: siteConfig.description,
     manifest: "/manifest.json",
     icons: {
       icon: [
@@ -35,8 +35,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       shortcut: "/favicon.ico",
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: {
+      type: "website",
+      locale,
+      url: `${siteUrl}/${locale}`,
+      siteName: siteConfig.name,
+      title: "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+      description: siteConfig.description,
+      images: [{ url: image, width: 1438, height: 810, alt: "Probably Stolen Cyberpunk Shopkeeper Sim" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+      description: siteConfig.description,
+      images: [image],
+    },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -49,10 +62,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.name,
-    url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "name": siteConfig.name,
+    "url": siteUrl,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
+    "description": siteConfig.description,
+    "sameAs": [siteConfig.gameUrl, siteConfig.social?.discord, siteConfig.social?.youtube].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
