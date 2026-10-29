@@ -1,1 +1,531 @@
-{}
+{
+  "site": {
+    "name": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+    "shortName": "Probably Stolen",
+    "tagline": "取引・査定・製作・ショップガイド",
+    "description": "Steamで配信中のProbably Stolen - Cyberpunk Shopkeeper SimのファンメイドWiki。取引、アイテム査定、製作、在庫管理、密輸、派閥の選択、店舗拡大を解説します。",
+    "legalNotice": "非公式ファンWikiです。Questing Goose Studio、tinyBuild、Valveとは関係ありません。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替え",
+    "guide": "ガイド",
+    "mechanics": "ゲームメカニクス",
+    "items": "アイテム",
+    "progression": "進行状況",
+    "modes": "モード",
+    "community": "コミュニティ",
+    "media": "メディア"
+  },
+  "home": {
+    "meta": {
+      "title": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki - ガイド",
+      "description": "Probably Stolen Wikiでは、店舗運営ガイド、取引のコツ、製作と在庫の戦略、派閥の選び方、進行のヒント、最新のゲーム情報を掲載しています。"
+    },
+    "hero": {
+      "eyebrow": "ファン制作のコミュニティWiki",
+      "title": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+      "description": "ディストピアの宇宙ステーションで怪しげな店を経営しよう。取引、アイテム査定、製作、在庫管理、密輸、派閥の選択、店舗拡大の戦略を学べます。",
+      "stats": [
+        "2026年10月28日リリース",
+        "96%の好評率",
+        "Steamレビュー587件",
+        "8言語対応"
+      ],
+      "primaryCta": "Steamでプレイ",
+      "secondaryCta": "初心者ガイド",
+      "tertiaryCta": "ローンチトレーラーを見る",
+      "videoLabel": "公式ローンチトレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "まずはここから",
+      "title": "Probably Stolen Cyberpunk Shopkeeper Simの歩み",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初の1週間の優先事項を学びましょう。開始時の商売を選び、入荷品を検査し、家賃用の資金を守り、序盤の家賃サイクルを乗り切ります。"
+        },
+        {
+          "number": "2",
+          "title": "お金を稼ぐ方法",
+          "description": "安値仕入れの転売、製作、派閥との取引を比較し、家賃用のクレジットを賭けずに再投資します。"
+        },
+        {
+          "number": "3",
+          "title": "査定ガイド",
+          "description": "水、武器、化学薬品、希少品、怪しい仕入れ提案に対して、繰り返し使える検査手順を身につけます。"
+        },
+        {
+          "number": "4",
+          "title": "アイテム価格",
+          "description": "価格を提示するときは、状態、真贋、派閥の評判、ステーションの品不足、家賃のプレッシャーを確認します。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま注目",
+      "quickLinks": [
+        "初心者ガイド",
+        "査定ガイド",
+        "お金を稼ぐ方法",
+        "アイテム価格"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "開始時の商売を選び、最初の在庫を検査し、家賃用の資金を守り、安定した最初の1週間を築きます。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-beginner-guide"
+        },
+        {
+          "badge": "更新済み",
+          "title": "お金を稼ぐ方法",
+          "description": "転売、製作、派閥へのアクセス、家賃の管理を比較し、より安定した店の収入を目指します。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-how-to-make-money"
+        },
+        {
+          "badge": "人気",
+          "title": "査定ガイド",
+          "description": "状態を確認し、消耗品を試し、希少品の真贋を見極め、価格を出す前に売り手を読みます。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-appraisal-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "アイテム価格",
+          "description": "状態、真贋、派閥の評判、品不足、家賃のプレッシャーが価格をどう変えるかを確認します。",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-item-prices"
+        },
+        {
+          "badge": "新着",
+          "title": "密輸品ガイド",
+          "description": "リスクを抑え、隠し場所を変え、積荷を失うより賄賂の方が安く済む場面を見極めます。",
+          "href": "/mechanics/probably-stolen-cyberpunk-shopkeeper-sim-contraband"
+        },
+        {
+          "badge": "新着",
+          "title": "キーカード製造機",
+          "description": "キーカード生産が店にどう組み込まれるか、どの階級が売れるか、記録がどこで危険になるかを学びます。",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-keycard-making-machine"
+        },
+        {
+          "badge": "人気",
+          "title": "取引ライセンス",
+          "description": "合法的なカウンターと地下市場を分ける書類とアクセス権を理解します。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-trading-license"
+        },
+        {
+          "badge": "人気",
+          "title": "パークガイド",
+          "description": "家賃のプレッシャー、生産、査定、店が負うリスクを踏まえて進行の選択を計画します。",
+          "href": "/progression/probably-stolen-cyberpunk-shopkeeper-sim-perks"
+        },
+        {
+          "badge": "新着",
+          "title": "所持金ゼロからの開始",
+          "description": "Rock Bottomの開始地点から、少量ずつ検査した仕入れと切り詰めた家賃用資金で店を築きます。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-starting-with-zero-money"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Probably Stolen Cyberpunk Shopkeeper Simとは？",
+      "paragraphs": [
+        "Probably Stolen Cyberpunk Shopkeeper Simは、ディストピアの宇宙ステーションを舞台にしたシングルプレイヤー向け店舗運営RPGです。商品を仕入れ、サプライヤーの品を鑑定し、顧客と交渉し、生産機械を管理し、家賃の上昇に脅かされながらステーションの派閥とどこまで関わるかを決めていきます。",
+        "各プレイはガンスミス、化学者、水商人、故買屋、水耕栽培農家、あるいはRock Bottomから始まります。状態と出所を確認し、目の前の顧客に合わせて価格を付け、家賃用の資金を確保し、店の成長に合わせてレシピ、機械、ライセンス、2つ目の商品ラインへ再投資しましょう。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Questing Goose Studio"
+        },
+        {
+          "label": "販売元",
+          "value": "tinyBuild"
+        },
+        {
+          "label": "リリース",
+          "value": "2026年10月28日"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PC（Steam）"
+        },
+        {
+          "label": "ジャンル",
+          "value": "店舗運営RPG"
+        },
+        {
+          "label": "Steam Deck",
+          "value": "プレイ可能"
+        },
+        {
+          "label": "実績",
+          "value": "21"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Probably Stolen Cyberpunk Shopkeeper Sim Wikiを探索",
+      "description": "最初のシフト、店の主要システム、在庫、価格設定、お金の稼ぎ方、動作環境、リリース情報、アップデート追跡を扱う8つの実践セクションです。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim 初心者ガイド",
+          "description": "商売を選び、在庫を検査し、家賃用の資金を守り、1つずつ生産チェーンを学んで安定した最初の1週間を築きます。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "安価で信頼できる商品ラインを1つ仕入れ、継続的に販売して現金の余裕を作ります。"
+            },
+            {
+              "label": "2",
+              "detail": "サプライヤーの誇大表示には罠が組み込まれているため、支払う前にすべての入荷商品を検査してください。"
+            },
+            {
+              "label": "3",
+              "detail": "1 つの生産機械またはレシピをエンドツーエンドで学習して、生の在庫をより利益率の高い商品にできるようにします。"
+            },
+            {
+              "label": "4",
+              "detail": "オプションの在庫を購入する前に、次回の家賃の支払いと同額の準備金を保管してください。"
+            },
+            {
+              "label": "5",
+              "detail": "評判を守るために、賭け金の低い商品については値切り交渉をし、大量の商品については公正なオファーを受け入れます。"
+            },
+            {
+              "label": "6",
+              "detail": "現在の店舗で家賃をまかなえるようになったら、余剰を2番目の製品ラインに再投資します。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim ゲームプレイガイド",
+          "description": "カウンターから現金までの流れを理解します。在庫を選び、商品を査定し、顧客を見極め、派閥の評判を管理し、密輸品を隠します。",
+          "href": "/community/probably-stolen-cyberpunk-shopkeeper-sim-gameplay-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "取引",
+              "detail": "ガンスミス、化学者、水商人、故買屋、農家、Rock Bottomの開始地点によって、最初の在庫とリスクが変わります。"
+            },
+            {
+              "label": "鑑定",
+              "detail": "サプライヤーと価格について話し合う前に、状態、真正性、機能を確認してください。"
+            },
+            {
+              "label": "顧客",
+              "detail": "ステーションの保安、革命家、エリート、労働者ではカウンターでの反応が異なります。"
+            },
+            {
+              "label": "派閥",
+              "detail": "評判を高めると、ライバル集団との取引の扉を閉ざす一方で、取引やライセンスを解放できます。"
+            },
+            {
+              "label": "密輸品",
+              "detail": "リスクのある在庫を隠し、露出を抑え、保安が店内を捜索する前に賄賂の予算を確保します。"
+            },
+            {
+              "label": "オーグス",
+              "detail": "不正なAIチップを持つ人物の行動の兆候に注意し、勘だけでステーションの規則を執行しないようにします。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim アイテムと在庫",
+          "description": "利益率とリスクで商品ラインを比較し、自信を持って査定でき、次の家賃支払いまでに売り切れる組み合わせを揃えます。",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-item-prices",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "密輸品と無許可のオーグスは最高の利益率を誇りますが、保安と派閥のリスクも極めて高くなります。"
+            },
+            {
+              "label": "A",
+              "detail": "希少品や遺物には鑑定が必要で、コレクターやエリートバイヤーにアピールします。"
+            },
+            {
+              "label": "B",
+              "detail": "化学物質と作成されたコンポーネントは着実に動きます。銃器の場合はより高額の費用がかかりますが、許可と検査が必要になります。"
+            },
+            {
+              "label": "C",
+              "detail": "ろ過水と日用品は利益率が低いですが、安定した需要が顧客ロイヤルティを築きます。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim お金の稼ぎ方",
+          "description": "資金の余裕なしに高利益の一品を追うのではなく、転売、生産、評判、家賃管理を組み合わせます。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-how-to-make-money",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "再販",
+              "detail": "低価格で購入し、商品を検査し、証明された状態と出所を重視する購入者に再販します。"
+            },
+            {
+              "label": "クラフト",
+              "detail": "機械、レシピ、生産チェーンを使用して、生の在庫をより価値の高い商品に変えます。"
+            },
+            {
+              "label": "派閥",
+              "detail": "独占取引、地下ライセンス、忠実な顧客からの確かな見積もりに向けて評判を築きます。"
+            },
+            {
+              "label": "家賃",
+              "detail": "拡大する前に、2 回の支払いバッファーを確保し、遅れている在庫を一掃し、再投資します。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim のヒントとコツ",
+          "description": "家賃資金の未保護、ずさんな在庫回転、繰り返す賄賂、怪しい顧客への早まった判断など、プレイを台無しにするミスを避けます。",
+          "href": "/community/probably-stolen-cyberpunk-shopkeeper-sim-gameplay-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "家賃",
+              "detail": "在庫や拡張に支出する前に、2 回の支払いバッファーを構築します。"
+            },
+            {
+              "label": "在庫",
+              "detail": "セッション開始時に在庫を整理し、家賃支払日までに売れにくい商品を回転させます。"
+            },
+            {
+              "label": "賄賂",
+              "detail": "賄賂を毎週の運営コストとしてではなく、圧力弁として扱います。"
+            },
+            {
+              "label": "オーグス",
+              "detail": "不審な動作があった場合は一時停止し、直感でステーションのポリシーを強制することは避けてください。"
+            },
+            {
+              "label": "許可",
+              "detail": "資金を投じる前に、武器の書類と機械の前提条件を確認します。"
+            },
+            {
+              "label": "隠し場所",
+              "detail": "隠し場所を変え、悪い1週間で吸収できる量を超える密輸品を決して持たないようにします。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim のシステム要件",
+          "description": "ゲームをインストールする前に、OS、プロセッサ、メモリ、グラフィック、ストレージの最低要件を確認します。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-steam",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows 10、64 ビット"
+            },
+            {
+              "label": "CPU",
+              "detail": "Intel Core i3 または同等のもの"
+            },
+            {
+              "label": "RAM",
+              "detail": "8 GB RAM"
+            },
+            {
+              "label": "GPU",
+              "detail": "GTX 650 Ti 相当以上"
+            },
+            {
+              "label": "DirectX",
+              "detail": "バージョン 10"
+            },
+            {
+              "label": "ストレージ",
+              "detail": "1 GBの空き容量"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim のリリース日とプラットフォーム",
+          "description": "発売日、Steamでの提供状況、価格、レビュー状況、Steam Deck対応、サウンドトラックDLCをまとめて確認します。",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "リリース",
+              "detail": "Probably Stolen Cyberpunk Shopkeeper Sim は 2026 年 10 月 28 日に発売されました。"
+            },
+            {
+              "label": "価格",
+              "detail": "基本価格は 19.99 ドルで、10% の初回オファーは 17.99 ドルです。"
+            },
+            {
+              "label": "プラットフォーム",
+              "detail": "ゲームは Steam を通じて PC で利用できます。"
+            },
+            {
+              "label": "Steam Deck",
+              "detail": "Steam Deck 互換性はプレイ可能と評価されています。"
+            },
+            {
+              "label": "レビュー",
+              "detail": "発売期間では、896 件の購入者レビューから 96% の肯定的なスコアが示されました。"
+            },
+            {
+              "label": "DLC",
+              "detail": "サウンドトラック DLC は $4.99 で別途入手可能です。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim のアップデートとニュース",
+          "description": "パッチノートと開発者の発表を追いながら、現在のビルドで使える在庫、査定、生産、派閥の実践ルーチンを活用します。",
+          "href": "/progression/probably-stolen-cyberpunk-shopkeeper-sim-quality-of-life-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "在庫",
+              "detail": "セッション開始時に在庫を並べ替え、隠す必要がある密輸品用の固定スロットを予約します。"
+            },
+            {
+              "label": "鑑定",
+              "detail": "開始価格は再販見積もりを下回るように設定し、分類できない商品は断ります。"
+            },
+            {
+              "label": "密輸品",
+              "detail": "家賃の支払い前にリスクのある在庫を隠し、露出を家賃1週間分以内に抑えます。"
+            },
+            {
+              "label": "生産",
+              "detail": "各生産を実行する前に、マシンの前提条件とレシピを一定の順序で確認します。"
+            },
+            {
+              "label": "派閥",
+              "detail": "大きな売買の後に評判の変化を記録し、サプライヤーの態度が急に冷たくなっても慌てないようにします。"
+            },
+            {
+              "label": "ソース",
+              "detail": "まず Steam でパッチノートを追跡し、次に公式 Discord で開発者のコメントを確認してください。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "開始方法、在庫の査定、お金の稼ぎ方、Steam Deckでのプレイ、Probably Stolen Cyberpunk Shopkeeper Simで店を買い取る方法についての簡潔な回答です。",
+      "items": [
+        {
+          "question": "Probably Stolen Cyberpunk Shopkeeper Simとは？",
+          "answer": "Probably Stolen Cyberpunk Shopkeeper Simは、ディストピアの宇宙ステーションを舞台にしたシングルプレイヤー向け店舗運営RPGです。商品を買って査定し、顧客と交渉し、生産機械を動かし、派閥と関わりながら、家賃の上昇に負けない収入を稼ぎます。"
+        },
+        {
+          "question": "Probably Stolen Cyberpunk Shopkeeper Simで最初に何を売るべきですか？",
+          "answer": "水商人または水耕栽培農家で始めると、初心者でも安定した最初の商品ラインを確保できます。ろ過水は利益率が低いものの需要は安定しており、農業は速さと引き換えに、よりゆっくりで予測しやすい生産曲線を得られます。"
+        },
+        {
+          "question": "Probably Stolen Cyberpunk Shopkeeper Simの査定はどう機能しますか？",
+          "answer": "価格の話をする前に商品を検査し、消耗品を試すかろ過し、希少品の真贋を確かめ、売り手の説明と棚にある品の状態を照合します。分類できない商品は、闇雲に値段を付けるのではなく取引を断りましょう。"
+        },
+        {
+          "question": "Probably Stolen Cyberpunk Shopkeeper Simでお金を稼ぐには？",
+          "answer": "Probably Stolen Cyberpunk Shopkeeper Simでは、安く買って査定後に転売する、機械とレシピで高価値品を作る、派閥の評判を高めて有利な取引を開くという3つの拡張可能な循環が報われます。大きな在庫リスクを取る前に、家賃2回分の余裕を確保してください。"
+        },
+        {
+          "question": "Probably Stolen Cyberpunk Shopkeeper SimはSteam Deckで遊べますか？",
+          "answer": "はい。Probably Stolen Cyberpunk Shopkeeper SimはSteam Deckで「プレイ可能」と評価されています。マウスのみの操作、文字サイズの調整、必須のクイックタイムイベントがないことで、携帯モードでの仕入れや値切り交渉が実用的です。"
+        },
+        {
+          "question": "Probably Stolen Cyberpunk Shopkeeper Simで自分の店を買い取るには？",
+          "answer": "まず家賃用の余裕を作り、その後で生産機械、上位ライセンス、2つ目の事業に投資します。Probably Stolen Cyberpunk Shopkeeper Simでは、次に拡張する前に各購入の元を取るべきです。最終目標は店を買い取り、家賃の時計を止めることです。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Probably Stolenを極める準備はできましたか？",
+      "description": "最初の取引から完全に強化した店まで、コミュニティWikiが査定、製作、在庫、密輸、派閥の選択を網羅します。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim ガイド",
+    "overviewDescription": "在庫の査定、お金の稼ぎ方、取引ライセンスの取得、最初の店を生き残る方法を扱う初心者向け・上級者向けガイドです。"
+  },
+  "mechanics": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim ゲームメカニクス",
+    "overviewDescription": "査定、市場情報、万引き、盗品、密輸品、故買、顧客による盗難がすべての販売にどう影響するかを学びます。"
+  },
+  "items": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim アイテムと価格",
+    "overviewDescription": "投資する前に、アイテム価格、新入荷、ツールボックス、キーカード製造機、水取引を比較します。"
+  },
+  "progression": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim 進行状況",
+    "overviewDescription": "お金の稼ぎ方、パーク、Day 100の目標、1年間の商売、立ち退きのプレッシャー、快適性アップデートを計画します。"
+  },
+  "modes": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim ゲームモード",
+    "overviewDescription": "新しいプレイを始める前に、Rock Bottom、Hardcore、Water Trader、Model Citizen、難易度設定を比較します。"
+  },
+  "community": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim コミュニティ",
+    "overviewDescription": "コミュニティのヒント、ゲームプレイの助言、Redditの査定議論、他の店主から学べる実践的な教訓を紹介します。"
+  },
+  "media": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim メディア",
+    "overviewDescription": "公式トレーラー、ローンチ映像、ゲームプレイ動画、リリース日の報道をまとめて視聴できます。"
+  },
+  "shared": {
+    "wikiNavigation": "Wikiナビゲーション",
+    "activeCodes": "ショップアイテム",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのアイテムを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "ヘルプが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "利用できるガイドはまだありません。もうすぐ追加されます！"
+  },
+  "footer": {
+    "aboutTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+    "about": "取引、アイテム査定、製作、在庫管理、密輸、派閥の選択、店舗拡大を扱う、新規プレイヤーにもベテランにも役立つ独立系ファンガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法務",
+    "copyright": "2026 Probably Stolen Cyberpunk Shopkeeper Sim Wiki。Questing Goose Studio、tinyBuild、Valveとは関係ありません。",
+    "description": "Steamのサイバーパンク店舗シミュレーター。製作し、取引し、密輸し、派閥の忠誠を渡り歩きます。",
+    "playGame": "Steamでプレイ",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "Steamコミュニティ",
+    "beginnerGuide": "ショップガイド",
+    "raceGuides": "取引ガイド",
+    "bossGuides": "製作ガイド",
+    "buildGuide": "派閥ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

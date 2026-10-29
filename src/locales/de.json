@@ -1,1 +1,531 @@
-{}
+{
+  "site": {
+    "name": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+    "shortName": "Probably Stolen",
+    "tagline": "Handel, Bewertung, Handwerk & Shop-Leitfäden",
+    "description": "Von Fans erstelltes Wiki zu Probably Stolen - Cyberpunk Shopkeeper Sim auf Steam mit Handel, Gegenstandsbewertung, Handwerk, Inventarverwaltung, Schmuggel, Fraktionswahl und Shop-Ausbau.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Nicht mit Questing Goose Studio, tinyBuild oder Valve verbunden."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Leitfaden",
+    "mechanics": "Mechaniken",
+    "items": "Gegenstände",
+    "progression": "Fortschritt",
+    "modes": "Modi",
+    "community": "Community",
+    "media": "Medien"
+  },
+  "home": {
+    "meta": {
+      "title": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki - Leitfäden",
+      "description": "Das Probably Stolen Wiki bietet Leitfäden zur Shop-Verwaltung, Handelstipps, Handwerks- und Inventarstrategien, Fraktionswahl, Fortschrittshilfe und aktuelle Spiel-Updates."
+    },
+    "hero": {
+      "eyebrow": "Von Fans erstelltes Community-Wiki",
+      "title": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+      "description": "Führen Sie einen zwielichtigen Laden auf einer dystopischen Raumstation. Lernen Sie Handel, Gegenstandsbewertung, Handwerk, Inventarverwaltung, Schmuggel, Fraktionswahl und Strategien für den Shop-Ausbau.",
+      "stats": [
+        "Veröffentlicht am 28. Oktober 2026",
+        "96 % positive Bewertungen",
+        "587 Steam-Bewertungen",
+        "8 unterstützte Sprachen"
+      ],
+      "primaryCta": "Auf Steam spielen",
+      "secondaryCta": "Einsteiger-Leitfaden",
+      "tertiaryCta": "Launch-Trailer ansehen",
+      "videoLabel": "Offizieller Launch-Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Leitfäden durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Ihre Reise durch Probably Stolen Cyberpunk Shopkeeper Sim",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Leitfaden",
+          "description": "Lernen Sie die Prioritäten der ersten Woche: Wählen Sie einen Handelszweig, prüfen Sie eingehende Ware, schützen Sie Ihre Mietreserve und überstehen Sie die ersten Mietzyklen."
+        },
+        {
+          "number": "2",
+          "title": "So verdienen Sie Geld",
+          "description": "Vergleichen Sie günstigen Wiederverkauf, Handwerk und fraktionsgestützte Geschäfte und reinvestieren Sie, ohne die für die Miete reservierten Credits zu verzocken."
+        },
+        {
+          "number": "3",
+          "title": "Bewertungsleitfaden",
+          "description": "Entwickeln Sie eine wiederholbare Prüfroutine für Wasser, Waffen, Chemikalien, seltene Waren und verdächtige Lieferangebote."
+        },
+        {
+          "number": "4",
+          "title": "Gegenstandspreise",
+          "description": "Berücksichtigen Sie Zustand, Echtheit, Fraktionsruf, Engpässe der Station und Mietdruck, wenn Sie einen Preis nennen."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade im Trend",
+      "quickLinks": [
+        "Einsteiger-Leitfaden",
+        "Bewertungsleitfaden",
+        "Geld verdienen",
+        "Gegenstandspreise"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Leitfaden",
+          "description": "Wählen Sie einen Handelszweig, prüfen Sie Ihre erste Ware, schützen Sie die Mietreserve und bauen Sie eine stabile Eröffnungswoche auf.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-beginner-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "So verdienen Sie Geld",
+          "description": "Vergleichen Sie Wiederverkauf, Handwerk, Fraktionszugang und Mietdisziplin für verlässlichere Einnahmen.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-how-to-make-money"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Bewertungsleitfaden",
+          "description": "Prüfen Sie Zustand, testen Sie Verbrauchsgüter, authentifizieren Sie seltene Waren und lesen Sie den Verkäufer, bevor Sie ein Angebot machen.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-appraisal-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Gegenstandspreise",
+          "description": "Erfahren Sie, wie Zustand, Echtheit, Fraktionsruf, Engpässe und Mietdruck ein Angebot verändern.",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-item-prices"
+        },
+        {
+          "badge": "Neu",
+          "title": "Leitfaden für Schmuggelware",
+          "description": "Begrenzen Sie Ihr Risiko, wechseln Sie Verstecke und erkennen Sie, wann ein Bestechungsgeld billiger ist als eine verlorene Lieferung.",
+          "href": "/mechanics/probably-stolen-cyberpunk-shopkeeper-sim-contraband"
+        },
+        {
+          "badge": "Neu",
+          "title": "Schlüsselkartenmaschine",
+          "description": "Erfahren Sie, wie Schlüsselkartenproduktion in einen Laden passt, welche Stufen sich verkaufen und wo die Papierspur riskant wird.",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-keycard-making-machine"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Handelslizenz",
+          "description": "Verstehen Sie den Papierkram und die Zugänge, die einen legalen Tresen vom Untergrundmarkt trennen.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-trading-license"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Perks-Leitfaden",
+          "description": "Planen Sie Fortschrittsentscheidungen mit Blick auf Mietdruck, Produktion, Bewertung und die Risiken Ihres Ladens.",
+          "href": "/progression/probably-stolen-cyberpunk-shopkeeper-sim-perks"
+        },
+        {
+          "badge": "Neu",
+          "title": "Mit null Geld starten",
+          "description": "Bauen Sie aus einem Rock-Bottom-Start mit kleinen, geprüften Einkäufen und einer knappen Mietreserve etwas auf.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-starting-with-zero-money"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Probably Stolen Cyberpunk Shopkeeper Sim?",
+      "paragraphs": [
+        "Probably Stolen Cyberpunk Shopkeeper Sim ist ein Einzelspieler-Shop-Management-RPG auf einer dystopischen Raumstation. Sie beschaffen Waren, prüfen, was Lieferanten Ihnen andrehen wollen, feilschen mit Kunden, bedienen Produktionsmaschinen und entscheiden, wie eng Sie mit den Fraktionen der Station zusammenarbeiten, während steigende Mieten Ihr Geschäft bedrohen.",
+        "Jeder Durchlauf beginnt mit einem Handelszweig wie Waffenschmied, Chemiker, Wasserhändler, Hehler, Hydroponikbauer oder Rock Bottom. Prüfen Sie Zustand und Herkunft, setzen Sie Preise für den Kunden vor Ihnen, halten Sie eine Mietreserve zurück und reinvestieren Sie in Rezepte, Maschinen, Lizenzen und eine zweite Produktlinie, während der Laden wächst."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Questing Goose Studio"
+        },
+        {
+          "label": "Publisher",
+          "value": "tinyBuild"
+        },
+        {
+          "label": "Veröffentlichung",
+          "value": "28. Oktober 2026"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC über Steam"
+        },
+        {
+          "label": "Genre",
+          "value": "Shop-Management-RPG"
+        },
+        {
+          "label": "Steam Deck",
+          "value": "Spielbar"
+        },
+        {
+          "label": "Erfolge",
+          "value": "21"
+        }
+      ],
+      "cta": "Alle Leitfäden entdecken"
+    },
+    "explore": {
+      "title": "Entdecken Sie das Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+      "description": "Acht praktische Abschnitte behandeln Ihre erste Schicht, zentrale Shopsysteme, Inventar, Preise, Geldverdienen, technische Anforderungen, Release-Details und Update-Tracking.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Einsteiger-Leitfaden zu Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Bauen Sie eine stabile erste Woche auf: Wählen Sie einen Handelszweig, prüfen Sie Ware, schützen Sie die Miete und lernen Sie jeweils eine Produktionskette.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Lagern Sie eine günstige, zuverlässige Produktlinie und verkaufen Sie sie regelmäßig, um einen Liquiditätspuffer aufzubauen."
+            },
+            {
+              "label": "2",
+              "detail": "Prüfen Sie jeden eingehenden Artikel, bevor Sie bezahlen, denn überhöhte Angaben des Lieferanten sind eine eingebaute Falle."
+            },
+            {
+              "label": "3",
+              "detail": "Erlernen Sie eine Produktionsmaschine oder ein Rezept durchgängig, damit Rohmaterial zu Waren mit höheren Gewinnspannen werden kann."
+            },
+            {
+              "label": "4",
+              "detail": "Behalten Sie eine Reserve in Höhe Ihrer nächsten Mietzahlung, bevor Sie optionales Inventar kaufen."
+            },
+            {
+              "label": "5",
+              "detail": "Feilschen Sie mit Artikeln mit geringem Einsatz und akzeptieren Sie faire Angebote für Waren mit großen Mengen, um Ihren Ruf zu schützen."
+            },
+            {
+              "label": "6",
+              "detail": "Reinvestieren Sie den Überschuss in eine zweite Produktlinie, nachdem der aktuelle Shop die Miete decken kann."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Gameplay-Leitfaden zu Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Verstehen Sie den Kreislauf vom Tresen zum Geld: Wählen Sie Ware, bewerten Sie sie, lesen Sie Kunden, pflegen Sie Fraktionsruf und verstecken Sie Schmuggelware.",
+          "href": "/community/probably-stolen-cyberpunk-shopkeeper-sim-gameplay-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Handel",
+              "detail": "Waffenschmied, Chemiker, Wasserhändler, Hehler, Farmer und Rock-Bottom-Start verändern Ihre erste Ware und Ihr Risiko."
+            },
+            {
+              "label": "Bewerten",
+              "detail": "Überprüfen Sie Zustand, Echtheit und Funktion, bevor Sie mit einem Lieferanten über einen Preis sprechen."
+            },
+            {
+              "label": "Kunden",
+              "detail": "Verdeckte Sicherheitskräfte, Revolutionäre, Eliten und Arbeiter reagieren am Tresen unterschiedlich."
+            },
+            {
+              "label": "Fraktionen",
+              "detail": "Ansehen kann Deals und Lizenzen freischalten und gleichzeitig Türen zu rivalisierenden Gruppen schließen."
+            },
+            {
+              "label": "Schmuggelware",
+              "detail": "Verstecken Sie riskante Ware, begrenzen Sie Ihr Risiko und planen Sie Bestechungsgelder ein, bevor der Sicherheitsdienst den Laden durchsucht."
+            },
+            {
+              "label": "Augs",
+              "detail": "Achten Sie auf Verhaltensauffälligkeiten bei Trägern manipulierter KI-Chips und folgen Sie der Stationspolitik, ohne nach bloßem Gefühl zu handeln."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Gegenstände und Inventar in Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Vergleichen Sie Produktlinien nach Marge und Risiko und halten Sie dann eine Mischung, die Sie sicher bewerten und vor der nächsten Miete verkaufen können.",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-item-prices",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Schmuggelware und nicht lizenzierte Verstärker bieten die höchste Marge bei extremem Sicherheits- und Fraktionsrisiko."
+            },
+            {
+              "label": "A",
+              "detail": "Seltene Waren und Relikte müssen authentifiziert werden, um dann Sammler und Elitekäufer anzusprechen."
+            },
+            {
+              "label": "B",
+              "detail": "Chemikalien und hergestellte Komponenten bewegen sich stetig; Schusswaffen können mehr kosten, erfordern aber Genehmigungen und Inspektionen."
+            },
+            {
+              "label": "C",
+              "detail": "Gefiltertes Wasser und Grundnahrungsmittel haben geringe Margen, aber eine stetige Nachfrage stärkt die Kundenbindung."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Geldverdienen in Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Nutzen Sie Wiederverkauf, Produktion, Ruf und Mietdisziplin zusammen, statt ohne Polster einem einzelnen margenstarken Artikel nachzujagen.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-how-to-make-money",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Weiterverkaufen",
+              "detail": "Kaufen Sie günstig, prüfen Sie den Artikel und verkaufen Sie ihn an Käufer weiter, die Wert auf bewährten Zustand und Herkunft legen."
+            },
+            {
+              "label": "Handwerk",
+              "detail": "Verwandeln Sie Rohbestände mit Maschinen, Rezepten und Produktionsketten in höherwertige Waren."
+            },
+            {
+              "label": "Fraktion",
+              "detail": "Bauen Sie Ihren Ruf für exklusive Angebote, Untergrundlizenzen und verlässlichere Angebote von treuen Kunden auf."
+            },
+            {
+              "label": "Mieten",
+              "detail": "Halten Sie einen Puffer für zwei Zahlungen bereit, beseitigen Sie langsame Bestände und investieren Sie erneut, bevor Sie expandieren."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Tipps und Tricks zu Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Vermeiden Sie die Fehler, die einen Durchlauf ruinieren: ungeschütztes Mietgeld, nachlässige Warenrotation, wiederholte Bestechung und vorschnelle Entscheidungen bei verdächtigen Kunden.",
+          "href": "/community/probably-stolen-cyberpunk-shopkeeper-sim-gameplay-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Mieten",
+              "detail": "Bauen Sie einen Puffer für zwei Zahlungen auf, bevor Sie in Lagerbestände oder Erweiterungen investieren."
+            },
+            {
+              "label": "Warenbestand",
+              "detail": "Sortieren Sie zu Beginn einer Sitzung und wechseln Sie langsame Waren vor dem Miettermin."
+            },
+            {
+              "label": "Bestechungsgelder",
+              "detail": "Behandeln Sie Bestechung als Druckventil und nicht als wöchentliche Betriebskosten."
+            },
+            {
+              "label": "Augs",
+              "detail": "Halten Sie bei verdächtigem Verhalten inne und vermeiden Sie die Durchsetzung der Stationsrichtlinien aus einer Ahnung heraus."
+            },
+            {
+              "label": "Genehmigungen",
+              "detail": "Überprüfen Sie die Waffenpapiere und Maschinenvoraussetzungen, bevor Sie Kapital bereitstellen."
+            },
+            {
+              "label": "Verstecke",
+              "detail": "Wechseln Sie die Verstecke und halten Sie nie mehr Schmuggelware, als eine schlechte Woche verkraften kann."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Systemanforderungen von Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Prüfen Sie vor der Installation die Mindestanforderungen an Betriebssystem, Prozessor, Arbeitsspeicher, Grafik und Speicherplatz.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-steam",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Betriebssystem",
+              "detail": "Windows 10, 64-Bit"
+            },
+            {
+              "label": "CPU",
+              "detail": "Intel Core i3 oder gleichwertig"
+            },
+            {
+              "label": "RAM",
+              "detail": "8 GB RAM"
+            },
+            {
+              "label": "GPU",
+              "detail": "GTX 650 Ti-Äquivalent oder höher"
+            },
+            {
+              "label": "DirectX",
+              "detail": "Version 10"
+            },
+            {
+              "label": "Speicher",
+              "detail": "1 GB verfügbarer Speicherplatz"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Release-Datum und Plattformen von Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Alle wichtigen Angaben zu Launch, Steam-Verfügbarkeit, Preis, Bewertungsstand, Steam Deck und Soundtrack-DLC auf einen Blick.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Veröffentlichung",
+              "detail": "Probably Stolen Cyberpunk Shopkeeper Sim wurde am 28. Oktober 2026 gestartet."
+            },
+            {
+              "label": "Preis",
+              "detail": "Der Grundpreis beträgt 19,99 $, mit einem Einführungsangebot von 10 % für 17,99 $."
+            },
+            {
+              "label": "Plattform",
+              "detail": "Das Spiel ist auf dem PC über Steam verfügbar."
+            },
+            {
+              "label": "Steam Deck",
+              "detail": "Die Steam Deck-Kompatibilität wird als spielbar eingestuft."
+            },
+            {
+              "label": "Bewertungen",
+              "detail": "Das Startfenster ergab eine 96 % positive Bewertung aus 896 Käuferbewertungen."
+            },
+            {
+              "label": "DLC",
+              "detail": "Ein Soundtrack-DLC ist separat für 4,99 $ erhältlich."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Updates und Neuigkeiten zu Probably Stolen Cyberpunk Shopkeeper Sim",
+          "description": "Verfolgen Sie Patchnotes und Entwicklerankündigungen und nutzen Sie zugleich praktische Routinen für Inventar, Bewertung, Produktion und Fraktionen im aktuellen Build.",
+          "href": "/progression/probably-stolen-cyberpunk-shopkeeper-sim-quality-of-life-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Inventar",
+              "detail": "Sortieren Sie den Bestand zu Beginn der Sitzung und reservieren Sie einen festen Platz für Schmuggelware, die versteckt werden muss."
+            },
+            {
+              "label": "Bewerten",
+              "detail": "Begrenzen Sie Eröffnungsangebote unterhalb Ihrer Wiederverkaufsschätzung und lehnen Sie Waren ab, die Sie nicht klassifizieren können."
+            },
+            {
+              "label": "Schmuggelware",
+              "detail": "Verstecken Sie riskante Ware vor Mietzahlungen und begrenzen Sie Ihr Risiko auf höchstens eine Wochenmiete."
+            },
+            {
+              "label": "Produktion",
+              "detail": "Überprüfen Sie die Maschinenvoraussetzungen und Rezepte in einer festen Reihenfolge vor jedem Produktionslauf."
+            },
+            {
+              "label": "Fraktionen",
+              "detail": "Notieren Sie Rufänderungen nach großen Verkäufen, damit ein abweisender Lieferant nicht überrascht."
+            },
+            {
+              "label": "Quellen",
+              "detail": "Verfolgen Sie zuerst die Patchnotizen auf Steam und bestätigen Sie dann die Entwicklerkommentare auf dem offiziellen Discord."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Kurze Antworten zu den ersten Schritten, zur Bewertung von Ware, zum Geldverdienen, zu Steam Deck und zum Kauf Ihres Ladens in Probably Stolen Cyberpunk Shopkeeper Sim.",
+      "items": [
+        {
+          "question": "Was ist Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Probably Stolen Cyberpunk Shopkeeper Sim ist ein Einzelspieler-Shop-Management-RPG auf einer dystopischen Raumstation. Sie kaufen und bewerten Waren, verhandeln mit Kunden, bedienen Produktionsmaschinen, arbeiten mit Fraktionen und verdienen genug, um den Laden vor steigenden Mieten zu schützen."
+        },
+        {
+          "question": "Was sollte ich in Probably Stolen Cyberpunk Shopkeeper Sim zuerst verkaufen?",
+          "answer": "Ein Start als Wasserhändler oder Hydroponikbauer gibt Einsteigern eine stabilere erste Produktlinie. Gefiltertes Wasser hat dünne Margen, aber ständige Nachfrage; Landwirtschaft tauscht Tempo gegen eine langsamere, besser planbare Produktionskurve."
+        },
+        {
+          "question": "Wie funktioniert die Bewertung in Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Prüfen Sie den Gegenstand, bevor Sie über den Preis sprechen, testen oder filtern Sie Verbrauchsgüter, authentifizieren Sie seltene Waren und vergleichen Sie die Geschichte des Verkäufers mit dem Zustand im Regal. Wenn Sie einen Gegenstand nicht einordnen können, lehnen Sie das Geschäft ab, statt blind ein Angebot zu machen."
+        },
+        {
+          "question": "Wie verdiene ich in Probably Stolen Cyberpunk Shopkeeper Sim Geld?",
+          "answer": "Probably Stolen Cyberpunk Shopkeeper Sim belohnt drei skalierbare Kreisläufe: günstig kaufen und nach der Bewertung weiterverkaufen, mit Maschinen und Rezepten höherwertige Waren herstellen und Fraktionsruf für bessere Zugänge aufbauen. Halten Sie vor einem großen Lagerrisiko einen Puffer für zwei Mietzahlungen bereit."
+        },
+        {
+          "question": "Kann ich Probably Stolen Cyberpunk Shopkeeper Sim auf dem Steam Deck spielen?",
+          "answer": "Ja. Probably Stolen Cyberpunk Shopkeeper Sim ist auf dem Steam Deck als spielbar eingestuft. Die Maussteuerung, anpassbare Textgröße und das Fehlen verpflichtender Quick-Time-Events machen das Auffüllen und Feilschen im Handheld-Modus praktikabel."
+        },
+        {
+          "question": "Wie kaufe ich meinen Laden in Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Bauen Sie zuerst einen Mietpuffer auf und investieren Sie dann in Produktionsmaschinen, fortgeschrittene Lizenzen und ein zweites Geschäft. In Probably Stolen Cyberpunk Shopkeeper Sim sollte sich jeder Kauf bezahlt machen, bevor Sie erneut expandieren; das Endziel ist der Ladenkauf, der die Mietuhr beendet."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Probably Stolen zu meistern?",
+      "description": "Von Ihrem ersten Handel bis zum voll ausgebauten Laden deckt unser Community-Wiki Bewertung, Handwerk, Inventar, Schmuggel und Fraktionswahl ab.",
+      "primary": "Den Einsteiger-Leitfaden lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Leitfaden",
+    "overviewDescription": "Leitfäden für Einsteiger und Fortgeschrittene zur Bewertung von Ware, zum Geldverdienen, zum Erwerb einer Handelslizenz und zum Überleben Ihres ersten Ladens."
+  },
+  "mechanics": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Mechaniken",
+    "overviewDescription": "Erfahren Sie, wie Bewertung, Marktinformationen, Ladendiebstahl, gestohlene Waren, Schmuggelware, Hehlerei und Diebstahl durch Kunden jeden Verkauf beeinflussen."
+  },
+  "items": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Gegenstände & Preise",
+    "overviewDescription": "Vergleichen Sie Gegenstandspreise, neue Ware, die Werkzeugkiste, die Schlüsselkartenmaschine und den Wasserhandel, bevor Sie investieren."
+  },
+  "progression": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Fortschritt",
+    "overviewDescription": "Planen Sie Geldverdienen, Perks, Ziele für Tag 100, ein Jahr Handel, Räumungsdruck und Updates zur Lebensqualität."
+  },
+  "modes": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Spielmodi",
+    "overviewDescription": "Vergleichen Sie Rock Bottom, Hardcore, Water Trader, Model Citizen und die Schwierigkeitseinstellungen, bevor Sie einen neuen Durchlauf starten."
+  },
+  "community": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Community",
+    "overviewDescription": "Lesen Sie Community-Tipps, Gameplay-Ratschläge, Reddit-Diskussionen zur Bewertung und praktische Lektionen anderer Ladenbesitzer."
+  },
+  "media": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Medien",
+    "overviewDescription": "Sehen Sie offizielle Trailer, Launch-Material, Gameplay-Videos und Berichte zum Release-Datum an einem Ort."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Shop-Gegenstände",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Gegenstände anzeigen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchen Sie Hilfe?",
+    "relatedReading": "Weiterführende Lektüre",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Leitfäden verfügbar. Schauen Sie bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+    "about": "Ein unabhängiger, von Fans erstellter Leitfaden-Hub zu Handel, Gegenstandsbewertung, Handwerk, Inventarverwaltung, Schmuggel, Fraktionswahl und Shop-Ausbau für neue und erfahrene Spieler.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "2026 Probably Stolen Cyberpunk Shopkeeper Sim Wiki. Nicht mit Questing Goose Studio, tinyBuild oder Valve verbunden.",
+    "description": "Cyberpunk-Shop-Simulator auf Steam. Handeln, herstellen, schmuggeln und Fraktionsloyalitäten navigieren.",
+    "playGame": "Auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Steam-Community",
+    "beginnerGuide": "Shop-Leitfaden",
+    "raceGuides": "Handelsleitfaden",
+    "bossGuides": "Handwerksleitfaden",
+    "buildGuide": "Fraktionsleitfaden",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
