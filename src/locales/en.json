@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "progression": "Progression",
+    "modes": "Modes",
+    "community": "Community",
+    "media": "Media"
   },
   "home": {
     "meta": {
@@ -457,12 +464,39 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Guide",
+    "overviewDescription": "Beginner and advanced guides for appraising stock, making money, earning a trading license, and surviving your first shop."
+  },
+  "mechanics": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Mechanics",
+    "overviewDescription": "Learn how appraisal, market information, shoplifting, stolen goods, contraband, fencing, and customer theft shape every sale."
+  },
+  "items": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Items & Prices",
+    "overviewDescription": "Compare item prices, new stock, the toolbox, keycard making machine, and water trading before you invest."
+  },
+  "progression": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Progression",
+    "overviewDescription": "Plan money-making strategies, perks, Day 100 goals, one year of commerce, eviction pressure, and quality-of-life updates."
+  },
+  "modes": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Game Modes",
+    "overviewDescription": "Compare Rock Bottom, Hardcore, Water Trader, Model Citizen, and difficulty settings before starting a new run."
+  },
+  "community": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Community",
+    "overviewDescription": "Read community tips, gameplay advice, Reddit appraisal discussions, and practical lessons from other shopkeepers."
+  },
+  "media": {
+    "overviewTitle": "Probably Stolen Cyberpunk Shopkeeper Sim Media",
+    "overviewDescription": "Watch official trailers, launch footage, gameplay videos, and release-date coverage in one place."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
+    "activeCodes": "Shop Items",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
+    "viewAllCodes": "View all items",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
