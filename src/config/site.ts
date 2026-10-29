@@ -19,18 +19,17 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Probably Stolen Wiki",
+  shortName: "Probably Stolen",
+  logoText: "P",
+  tagline: "Trading, Appraisal, Crafting & Shop Guides",
+  description: "Fan-made wiki for Probably Stolen Cyberpunk Shopkeeper Sim, covering trading, item appraisal, crafting, inventory, smuggling, and faction choices.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://probably-stolen-cyberpunk-shopkeeper-sim.wiki",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://probably-stolen-cyberpunk-shopkeeper-sim.wiki").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/4348910/Probably_Stolen_Cyberpunk_Shopkeeper_Sim/",
+  heroVideoId: "_T87bZW8zsc",
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    youtube: "https://www.youtube.com/@tinyBuildGAMES",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
