@@ -14,7 +14,7 @@
   "home": {
     "meta": {
       "title": "Probably Stolen Cyberpunk Shopkeeper Sim Wiki - Guides",
-      "description": "Probably Stolen Wiki offers shop management guides, trading tips, crafting and inventory strategies, faction choices, progression help, and verified game updates."
+      "description": "Probably Stolen Wiki offers shop management guides, trading tips, crafting and inventory strategies, faction choices, progression help, and current game updates."
     },
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Probably Stolen Journey",
+      "title": "Your Probably Stolen Cyberpunk Shopkeeper Sim Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the first-week priorities: pick a starting trade, inspect incoming stock, protect your rent reserve, and survive the early rent cycles."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "How to Make Money",
+          "description": "Compare buy-low resale, crafting, and faction-backed deals, then reinvest without gambling the credits reserved for rent."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Appraisal Guide",
+          "description": "Build a repeatable inspection routine for water, weapons, chemicals, rare goods, and suspicious supplier offers."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Probably Stolen."
+          "title": "Item Prices",
+          "description": "Read condition, authentication, faction standing, station shortages, and rent pressure when setting a quote."
         }
       ]
     },
@@ -66,237 +66,355 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Appraisal Guide",
+        "Money Making",
+        "Item Prices"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/guide"
+          "description": "Pick a starting trade, inspect your first stock, protect the rent reserve, and build a stable opening week.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/skills"
+          "title": "How to Make Money",
+          "description": "Compare resale, crafting, faction access, and rent discipline for a more reliable shop income.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-how-to-make-money"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/bosses"
+          "title": "Appraisal Guide",
+          "description": "Inspect condition, test consumables, authenticate rare goods, and read the seller before quoting.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-appraisal-guide"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/maps"
+          "title": "Item Prices",
+          "description": "See how condition, authentication, faction standing, shortages, and rent pressure change a quote.",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-item-prices"
+        },
+        {
+          "badge": "New",
+          "title": "Contraband Guide",
+          "description": "Cap exposure, rotate hiding spots, and understand when a bribe is cheaper than losing the shipment.",
+          "href": "/mechanics/probably-stolen-cyberpunk-shopkeeper-sim-contraband"
+        },
+        {
+          "badge": "New",
+          "title": "Keycard Machine",
+          "description": "Learn how keycard production fits a shop, which tiers sell, and where the paper trail becomes risky.",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-keycard-making-machine"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/tier-list"
+          "title": "Trading License",
+          "description": "Understand the paperwork and access that separate a legal counter from the underground market.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-trading-license"
+        },
+        {
+          "badge": "Popular",
+          "title": "Perks Guide",
+          "description": "Plan progression choices around rent pressure, production, appraisal, and the risks your shop takes.",
+          "href": "/progression/probably-stolen-cyberpunk-shopkeeper-sim-perks"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/maps"
+          "title": "Starting With Zero Money",
+          "description": "Build from a rock-bottom opening with small inspected purchases and a tight rent reserve.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-starting-with-zero-money"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Probably Stolen?",
+      "title": "What is Probably Stolen Cyberpunk Shopkeeper Sim?",
       "paragraphs": [
-        "Probably Stolen is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Probably Stolen Cyberpunk Shopkeeper Sim is a single-player shop management RPG set on a dystopian space station. You source goods, authenticate what suppliers hand you, haggle with customers, manage production machines, and decide how closely to work with station factions while rising rent threatens the business.",
+        "Each run begins with a trade such as gunsmith, chemist, water merchant, fence, hydroponic farmer, or rock bottom. Inspect condition and provenance, price for the customer in front of you, keep a rent buffer, and reinvest in recipes, machines, licenses, and a second product line as the shop grows."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Questing Goose Studio"
+        },
+        {
+          "label": "Publisher",
+          "value": "tinyBuild"
+        },
+        {
+          "label": "Release",
+          "value": "October 28, 2026"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC via Steam"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Shop Management RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Steam Deck",
+          "value": "Playable"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Achievements",
+          "value": "21"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Probably Stolen Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Probably Stolen Cyberpunk Shopkeeper Sim Wiki",
+      "description": "Work through eight practical sections covering your first shift, core shop systems, inventory, pricing, money making, technical requirements, release details, and update tracking.",
       "modules": [
         {
           "order": 1,
-          "name": "Probably Stolen Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes",
-          "displayType": "code-box",
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Beginner Guide",
+          "description": "Build a stable first week by choosing a trade, inspecting stock, protecting rent money, and learning one production chain at a time.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Stock one cheap, reliable product line and sell it consistently to build a cash buffer."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Inspect every incoming item before paying, because supplier overstatement is a built-in trap."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Learn one production machine or recipe end to end so raw stock can become higher-margin goods."
+            },
+            {
+              "label": "4",
+              "detail": "Keep a reserve equal to your next rent payment before buying optional inventory."
+            },
+            {
+              "label": "5",
+              "detail": "Haggle on low-stakes items and accept fair offers on high-volume goods to protect reputation."
+            },
+            {
+              "label": "6",
+              "detail": "Reinvest surplus into a second product line after the current shop can cover rent."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Gameplay Guide",
+          "description": "Understand the counter-to-cash loop: choose stock, appraise goods, read customers, manage faction standing, and keep contraband hidden.",
+          "href": "/community/probably-stolen-cyberpunk-shopkeeper-sim-gameplay-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Trades",
+              "detail": "Gunsmith, chemist, water merchant, fence, farmer, and rock-bottom starts change your first stock and risk."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Appraise",
+              "detail": "Check condition, authenticity, and function before discussing a price with a supplier."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Customers",
+              "detail": "Security fishers, revolutionaries, elites, and workers respond differently at the counter."
+            },
+            {
+              "label": "Factions",
+              "detail": "Standing can unlock deals and licenses while closing doors with rival groups."
+            },
+            {
+              "label": "Contraband",
+              "detail": "Hide risky stock, cap exposure, and budget bribes before Security searches the shop."
+            },
+            {
+              "label": "Augs",
+              "detail": "Watch for behavioral tells from rogue AI-chip hosts and follow station policy without acting on a hunch."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/tier-list",
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Items and Inventory",
+          "description": "Compare product lines by margin and risk, then stock a mix you can appraise confidently and clear before the next rent payment.",
+          "href": "/items/probably-stolen-cyberpunk-shopkeeper-sim-item-prices",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Contraband and unlicensed augs offer the highest margin with extreme Security and faction risk."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Rare goods and relics need authentication, then appeal to collectors and elite buyers."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Chems and crafted components move steadily; firearms can pay more but invite permits and inspections."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Filtered water and basic goods have thin margins, but steady demand builds customer loyalty."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Money Making Guide",
+          "description": "Use resale, production, reputation, and rent discipline together instead of chasing one high-margin item without a cash cushion.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-how-to-make-money",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Resell",
+              "detail": "Buy low, inspect the item, and resell to buyers who value proven condition and provenance."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Craft",
+              "detail": "Turn raw stock into higher-value goods with machines, recipes, and production chains."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Faction",
+              "detail": "Build standing for exclusive deals, underground licenses, and firmer quotes from loyal customers."
+            },
+            {
+              "label": "Rent",
+              "detail": "Keep a two-payment buffer, clear slow stock, and reinvest before expanding."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Tips and Tricks",
+          "description": "Avoid the mistakes that drain a run: unprotected rent money, careless stock rotation, repeated bribes, and hasty calls on suspicious customers.",
+          "href": "/community/probably-stolen-cyberpunk-shopkeeper-sim-gameplay-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Rent",
+              "detail": "Build a two-payment buffer before spending on inventory or expansion."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Stock",
+              "detail": "Sort at the start of a session and rotate slow goods before the rent date."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Bribes",
+              "detail": "Treat bribery as a pressure valve, not a weekly operating cost."
+            },
+            {
+              "label": "Augs",
+              "detail": "Pause on suspicious behavior and avoid enforcing station policy on a hunch."
+            },
+            {
+              "label": "Permits",
+              "detail": "Check weapons paperwork and machine prerequisites before committing capital."
+            },
+            {
+              "label": "Spots",
+              "detail": "Rotate hiding places and never hold more contraband than one bad week can absorb."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim System Requirements",
+          "description": "Check the minimum PC specifications before installing the game, including the operating system, processor, memory, graphics, and storage needs.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-steam",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "OS",
+              "detail": "Windows 10, 64-bit"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "CPU",
+              "detail": "Intel Core i3 or equivalent"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "RAM",
+              "detail": "8 GB RAM"
+            },
+            {
+              "label": "GPU",
+              "detail": "GTX 650 Ti equivalent or higher"
+            },
+            {
+              "label": "DirectX",
+              "detail": "Version 10"
+            },
+            {
+              "label": "Storage",
+              "detail": "1 GB available space"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Release Date and Platforms",
+          "description": "Review the launch date, Steam availability, pricing, review snapshot, Steam Deck status, and soundtrack DLC in one place.",
+          "href": "/guide/probably-stolen-cyberpunk-shopkeeper-sim-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Release",
+              "detail": "Probably Stolen Cyberpunk Shopkeeper Sim launched on October 28, 2026."
+            },
+            {
+              "label": "Price",
+              "detail": "The base price is $19.99, with a 10% introductory offer at $17.99."
+            },
+            {
+              "label": "Platform",
+              "detail": "The game is available on PC through Steam."
+            },
+            {
+              "label": "Deck",
+              "detail": "Steam Deck compatibility is rated Playable."
+            },
+            {
+              "label": "Reviews",
+              "detail": "The launch window showed a 96% positive score from 896 purchaser reviews."
+            },
+            {
+              "label": "DLC",
+              "detail": "A soundtrack DLC is available separately for $4.99."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Probably Stolen Cyberpunk Shopkeeper Sim Updates and News",
+          "description": "Track patch notes and developer announcements while using practical inventory, appraisal, production, and faction routines in the current build.",
+          "href": "/progression/probably-stolen-cyberpunk-shopkeeper-sim-quality-of-life-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Inventory",
+              "detail": "Sort stock at session start and reserve a fixed slot for contraband that needs hiding."
+            },
+            {
+              "label": "Appraise",
+              "detail": "Cap opening offers below your resale estimate and refuse goods you cannot classify."
+            },
+            {
+              "label": "Contraband",
+              "detail": "Hide risky stock before rent payments and keep exposure within one week of rent."
+            },
+            {
+              "label": "Production",
+              "detail": "Review machine prerequisites and recipes in a fixed order before each production run."
+            },
+            {
+              "label": "Factions",
+              "detail": "Record standing changes after major sales so a cold supplier does not become a surprise."
+            },
+            {
+              "label": "Sources",
+              "detail": "Track patch notes on Steam first, then confirm developer comments on the official Discord."
             }
           ]
         }
@@ -304,27 +422,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Probably Stolen.",
+      "description": "Quick answers about starting, appraising stock, making money, playing on Steam Deck, and buying out your shop in Probably Stolen Cyberpunk Shopkeeper Sim.",
       "items": [
         {
-          "question": "What is Probably Stolen?",
-          "answer": "Probably Stolen is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Probably Stolen Cyberpunk Shopkeeper Sim is a single-player shop management RPG set on a dystopian space station. You buy and appraise goods, negotiate with customers, run production machines, deal with factions, and earn enough to keep the shop ahead of rising rent."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "What should I sell first in Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "A water merchant or hydroponic farmer start gives Probably Stolen Cyberpunk Shopkeeper Sim beginners a steadier first product line. Filtered water has thin margins but constant demand, while farming trades speed for a slower, more predictable production curve."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does appraisal work in Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Inspect the item before discussing price, test or filter consumables, authenticate rare goods, and compare the seller's story with the condition on the shelf. If you cannot classify an item in Probably Stolen Cyberpunk Shopkeeper Sim, decline the deal instead of quoting blind."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I make money in Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Probably Stolen Cyberpunk Shopkeeper Sim rewards three scalable loops: buy low and resell after appraisal, craft higher-value goods through machines and recipes, and build faction standing for better access. Keep a two-payment rent buffer before taking a large inventory risk."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Can I play Probably Stolen Cyberpunk Shopkeeper Sim on Steam Deck?",
+          "answer": "Yes. Probably Stolen Cyberpunk Shopkeeper Sim is rated Playable on Steam Deck. The mouse-only option, adjustable text size, and absence of required quick-time events make handheld stocking and haggling sessions practical."
+        },
+        {
+          "question": "How do I buy out my shop in Probably Stolen Cyberpunk Shopkeeper Sim?",
+          "answer": "Build a rent buffer first, then invest in production machines, advanced licenses, and a second business. In Probably Stolen Cyberpunk Shopkeeper Sim, each purchase should pay for itself before you expand again, and the final goal is to end the rent clock with a shop buyout."
         }
       ]
     },
