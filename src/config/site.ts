@@ -1,3 +1,5 @@
+import { routing } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -34,6 +36,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@tinyBuildGAMES",
     steamCommunity: "https://steamcommunity.com/app/4348910/",
   },
-  locales: ["en", "es", "pt", "de", "fr", "ja"],
-  defaultLocale: "en",
+  locales: routing.locales,
+  defaultLocale: routing.defaultLocale,
 };
